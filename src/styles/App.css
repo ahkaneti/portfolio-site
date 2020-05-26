@@ -47,5 +47,13 @@
 
 .blurred_pro_pic
 {
-  filter: blur(10px);
+  filter: blur(4px);
+}
+.welcome_text
+{
+  color:white;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  font-size: 60px;
 }

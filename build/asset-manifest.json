@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/ahkaneti.github.io/static/css/main.9271ec94.chunk.css",
-    "main.js": "/ahkaneti.github.io/static/js/main.595a816b.chunk.js",
-    "main.js.map": "/ahkaneti.github.io/static/js/main.595a816b.chunk.js.map",
+    "main.css": "/ahkaneti.github.io/static/css/main.f064a4c4.chunk.css",
+    "main.js": "/ahkaneti.github.io/static/js/main.f9b478ee.chunk.js",
+    "main.js.map": "/ahkaneti.github.io/static/js/main.f9b478ee.chunk.js.map",
     "runtime-main.js": "/ahkaneti.github.io/static/js/runtime-main.5dcc2dd5.js",
     "runtime-main.js.map": "/ahkaneti.github.io/static/js/runtime-main.5dcc2dd5.js.map",
     "static/css/2.af3c1da9.chunk.css": "/ahkaneti.github.io/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.47260a82.chunk.js": "/ahkaneti.github.io/static/js/2.47260a82.chunk.js",
-    "static/js/2.47260a82.chunk.js.map": "/ahkaneti.github.io/static/js/2.47260a82.chunk.js.map",
+    "static/js/2.20639c81.chunk.js": "/ahkaneti.github.io/static/js/2.20639c81.chunk.js",
+    "static/js/2.20639c81.chunk.js.map": "/ahkaneti.github.io/static/js/2.20639c81.chunk.js.map",
     "index.html": "/ahkaneti.github.io/index.html",
-    "precache-manifest.be0db566aba65e78af6aa383dec7c699.js": "/ahkaneti.github.io/precache-manifest.be0db566aba65e78af6aa383dec7c699.js",
+    "precache-manifest.cf9c184618dc078b750f2e34c298b8b4.js": "/ahkaneti.github.io/precache-manifest.cf9c184618dc078b750f2e34c298b8b4.js",
     "service-worker.js": "/ahkaneti.github.io/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/ahkaneti.github.io/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.9271ec94.chunk.css.map": "/ahkaneti.github.io/static/css/main.9271ec94.chunk.css.map",
-    "static/js/2.47260a82.chunk.js.LICENSE.txt": "/ahkaneti.github.io/static/js/2.47260a82.chunk.js.LICENSE.txt",
+    "static/css/main.f064a4c4.chunk.css.map": "/ahkaneti.github.io/static/css/main.f064a4c4.chunk.css.map",
+    "static/js/2.20639c81.chunk.js.LICENSE.txt": "/ahkaneti.github.io/static/js/2.20639c81.chunk.js.LICENSE.txt",
+    "static/media/IEEELogo.png": "/ahkaneti.github.io/static/media/IEEELogo.ea014391.png",
+    "static/media/NULogo.png": "/ahkaneti.github.io/static/media/NULogo.dd04fe1b.png",
     "static/media/profile_pic.jpg": "/ahkaneti.github.io/static/media/profile_pic.85ecdfa4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5dcc2dd5.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.47260a82.chunk.js",
-    "static/css/main.9271ec94.chunk.css",
-    "static/js/main.595a816b.chunk.js"
+    "static/js/2.20639c81.chunk.js",
+    "static/css/main.f064a4c4.chunk.css",
+    "static/js/main.f9b478ee.chunk.js"
   ]
 }

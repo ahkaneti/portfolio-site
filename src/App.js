@@ -18,7 +18,20 @@ function App() {
   return (
     <div className="App" activeKey='/home'>
       <Sidebar />
-      <div className="pro_pic_holder"><img className ={scrolled ? "pro_pic": "blurred_pro_pic"} src={pic} alt='professional_pic'/></div>
+      <div className="midpart">
+        <div 
+        className="pro_pic_holder">
+          <img className={scrolled ? "blurred_pro_pic" : "pro_pic"} src={pic} alt='professional_pic'/>
+          {scrolled ? <div className="welcome_text"><p styles={{fontFamily: "Montserrat"}}>Hi, I am <span>Aaron Kaneti, developer, student</span></p></div> : <div></div> }
+        </div>
+        <div className="expertise">
+          <ul>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>HTML</li>
+          </ul>
+          </div>
+      </div>
       <Logos/>
     </div>
   );

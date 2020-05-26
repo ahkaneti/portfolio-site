@@ -4,11 +4,11 @@ import '../styles/sidebar.css';
 import { RiGithubLine } from 'react-icons/ri';
 import { FaLinkedinIn } from 'react-icons/fa';
 
-// function underline(e){
-//   // console.log(e);
-//   // e.target.style.textDecoration = "underline";
-//   return;
-// }
+function underline(e){
+  // console.log(e);
+  // e.target.style.textDecoration = "underline";
+  return;
+}
 
 class Sidebar extends React.Component{
   constructor(props){
