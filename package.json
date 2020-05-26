@@ -13,7 +13,7 @@
     "react-icons": "^3.10.0",
     "react-scripts": "3.4.1"
   },
-  "homepage": "ahkaneti.github.io/ahkaneti.github.io",
+  "homepage": "ahkaneti.github.io/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
