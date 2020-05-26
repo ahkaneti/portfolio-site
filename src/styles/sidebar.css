@@ -15,6 +15,11 @@
   font-size: 22px;
   margin-bottom: 15%;
   margin-top: 4%;
+  
+}
+.navbar-default .navbar-nav > li > a 
+{
+      text-decoration: underline !important;
 }
 .logo-background
 {
