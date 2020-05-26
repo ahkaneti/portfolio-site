@@ -11,6 +11,7 @@ function App() {
       <Sidebar />
     </div>
   );
+  // comment
 }
 
 export default App;
