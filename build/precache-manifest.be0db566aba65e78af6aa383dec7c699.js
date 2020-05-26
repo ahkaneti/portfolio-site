@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "456f65e81cd3bce4ceecc8090e70bc23",
+    "revision": "78cc64f3a713beebb1806b8d8b465cef",
     "url": "/ahkaneti.github.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ahkaneti.github.io/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "8872d68fc82d9efad484",
+    "revision": "b857c026c49f6919342f",
     "url": "/ahkaneti.github.io/static/css/main.9271ec94.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ahkaneti.github.io/static/js/2.47260a82.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8872d68fc82d9efad484",
-    "url": "/ahkaneti.github.io/static/js/main.9f5ecce6.chunk.js"
+    "revision": "b857c026c49f6919342f",
+    "url": "/ahkaneti.github.io/static/js/main.595a816b.chunk.js"
   },
   {
     "revision": "230997770a9422bee183",
