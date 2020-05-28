@@ -3,8 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import '../styles/sidebar.css';
 import { RiGithubLine } from 'react-icons/ri';
 import { FaLinkedinIn } from 'react-icons/fa';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Resume from '../pages/Resume';
+import { BrowserRouter as Router} from 'react-router-dom';
 
 function underline(e){
   // console.log(e);
@@ -28,7 +27,7 @@ class Sidebar extends React.Component{
            href="/" 
            className={"navitem"}
             style={{ textDecoration: "null",}}>Home</Nav.Link>
-          <Nav.Link className={"navitem"}>Technical Expertise</Nav.Link>
+          <Nav.Link href="/" className={"navitem"}>Technical Expertise</Nav.Link>
           <Nav.Link href="/resume" className={"navitem"}>Resumé</Nav.Link>
           <Nav.Link href="/" className={"navitem"}>Education</Nav.Link>
           <Nav.Link href="/" className={"navitem"}>Projects</Nav.Link>
