@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/ahkaneti.github.io/static/css/main.f064a4c4.chunk.css",
-    "main.js": "/ahkaneti.github.io/static/js/main.f9b478ee.chunk.js",
-    "main.js.map": "/ahkaneti.github.io/static/js/main.f9b478ee.chunk.js.map",
-    "runtime-main.js": "/ahkaneti.github.io/static/js/runtime-main.5dcc2dd5.js",
-    "runtime-main.js.map": "/ahkaneti.github.io/static/js/runtime-main.5dcc2dd5.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/ahkaneti.github.io/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.20639c81.chunk.js": "/ahkaneti.github.io/static/js/2.20639c81.chunk.js",
-    "static/js/2.20639c81.chunk.js.map": "/ahkaneti.github.io/static/js/2.20639c81.chunk.js.map",
-    "index.html": "/ahkaneti.github.io/index.html",
-    "precache-manifest.cf9c184618dc078b750f2e34c298b8b4.js": "/ahkaneti.github.io/precache-manifest.cf9c184618dc078b750f2e34c298b8b4.js",
-    "service-worker.js": "/ahkaneti.github.io/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/ahkaneti.github.io/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.f064a4c4.chunk.css.map": "/ahkaneti.github.io/static/css/main.f064a4c4.chunk.css.map",
-    "static/js/2.20639c81.chunk.js.LICENSE.txt": "/ahkaneti.github.io/static/js/2.20639c81.chunk.js.LICENSE.txt",
-    "static/media/IEEELogo.png": "/ahkaneti.github.io/static/media/IEEELogo.ea014391.png",
-    "static/media/NULogo.png": "/ahkaneti.github.io/static/media/NULogo.dd04fe1b.png",
-    "static/media/profile_pic.jpg": "/ahkaneti.github.io/static/media/profile_pic.85ecdfa4.jpg"
+    "main.css": "/static/css/main.c52f257e.chunk.css",
+    "main.js": "/static/js/main.5547306d.chunk.js",
+    "main.js.map": "/static/js/main.5547306d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7aebe98b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7aebe98b.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.0f561497.chunk.js": "/static/js/2.0f561497.chunk.js",
+    "static/js/2.0f561497.chunk.js.map": "/static/js/2.0f561497.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ac044d42c075cd9ea02e4ffdcd1e11c4.js": "/precache-manifest.ac044d42c075cd9ea02e4ffdcd1e11c4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.c52f257e.chunk.css.map": "/static/css/main.c52f257e.chunk.css.map",
+    "static/js/2.0f561497.chunk.js.LICENSE.txt": "/static/js/2.0f561497.chunk.js.LICENSE.txt",
+    "static/media/HearoLogo.png": "/static/media/HearoLogo.83ad7bf7.png",
+    "static/media/IEEELogo.png": "/static/media/IEEELogo.ea014391.png",
+    "static/media/NULogo.png": "/static/media/NULogo.dd04fe1b.png",
+    "static/media/profile_pic.jpg": "/static/media/profile_pic.85ecdfa4.jpg",
+    "static/media/resume.pdf": "/static/media/resume.af7c5650.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.5dcc2dd5.js",
+    "static/js/runtime-main.7aebe98b.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.20639c81.chunk.js",
-    "static/css/main.f064a4c4.chunk.css",
-    "static/js/main.f9b478ee.chunk.js"
+    "static/js/2.0f561497.chunk.js",
+    "static/css/main.c52f257e.chunk.css",
+    "static/js/main.5547306d.chunk.js"
   ]
 }

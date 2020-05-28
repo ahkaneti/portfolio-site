@@ -3,6 +3,7 @@ import Sidebar from '../components/sidebar';
 import Logos from '../components/Logos';
 import { Document, Page, pdfjs } from 'react-pdf';
 import resume from '../assets/resume.pdf';
+import '../styles/App.css'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
@@ -23,6 +24,7 @@ function Resume(){
       <Sidebar/>
       <div className="mid">
         <h1>Resumé</h1>
+        <h2>Last Updated 28th of May, 2020</h2>
         <Document file={resume}>
           <Page height={resumeHeight} pageNumber={1} onLoadSuccess={removeTextLayerOffset} renderAnnotationLayer />
         </Document>

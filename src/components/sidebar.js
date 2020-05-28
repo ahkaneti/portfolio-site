@@ -30,9 +30,9 @@ class Sidebar extends React.Component{
             style={{ textDecoration: "null",}}>Home</Nav.Link>
           <Nav.Link className={"navitem"}>Technical Expertise</Nav.Link>
           <Nav.Link href="/resume" className={"navitem"}>Resumé</Nav.Link>
-          <Nav.Link href="/home" className={"navitem"}>Education</Nav.Link>
-          <Nav.Link eventKey="link-3" className={"navitem"}>Projects</Nav.Link>
-          <Nav.Link eventKey="link-4" className={"navitem"}>Contact Me</Nav.Link>
+          <Nav.Link href="/" className={"navitem"}>Education</Nav.Link>
+          <Nav.Link href="/" className={"navitem"}>Projects</Nav.Link>
+          <Nav.Link href="/" className={"navitem"}>Contact Me</Nav.Link>
         </Nav>
         </Router>
         <div className= "logo-holder">
