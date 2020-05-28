@@ -3,6 +3,8 @@ import Nav from 'react-bootstrap/Nav';
 import '../styles/sidebar.css';
 import { RiGithubLine } from 'react-icons/ri';
 import { FaLinkedinIn } from 'react-icons/fa';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Resume from '../pages/Resume';
 
 function underline(e){
   // console.log(e);
@@ -20,16 +22,19 @@ class Sidebar extends React.Component{
   render(){
     return(
       <div className={'sidebar'}>
+        <Router>
         <Nav defaultActiveKey="/home" className="flex-column">
           <Nav.Link
-           href="/home" 
+           href="/" 
            className={"navitem"}
             style={{ textDecoration: "null",}}>Home</Nav.Link>
-          <Nav.Link eventKey="link-1" className={"navitem"}>Technical Expertise</Nav.Link>
-          <Nav.Link eventKey="link-2" className={"navitem"}>Education</Nav.Link>
+          <Nav.Link className={"navitem"}>Technical Expertise</Nav.Link>
+          <Nav.Link href="/resume" className={"navitem"}>Resumé</Nav.Link>
+          <Nav.Link href="/home" className={"navitem"}>Education</Nav.Link>
           <Nav.Link eventKey="link-3" className={"navitem"}>Projects</Nav.Link>
           <Nav.Link eventKey="link-4" className={"navitem"}>Contact Me</Nav.Link>
         </Nav>
+        </Router>
         <div className= "logo-holder">
           <div className = "logo-background">
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/ahkaneti"><RiGithubLine size={35} color={"yellow"}/></a>
