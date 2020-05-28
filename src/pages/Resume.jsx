@@ -18,14 +18,14 @@ function removeTextLayerOffset() {
 }
 
 function Resume(){
-  const resumeHeight = window.innerHeight * 1.25;
+  const resumeHeight = window.innerHeight * 1.5;
   return(
     <div className="App">
       <Sidebar/>
       <div className="mid">
         <h1>Resumé</h1>
-        <h2>Last Updated 28th of May, 2020</h2>
-        <Document file={resume}>
+        <h2><strong>Last Updated 28th of May, 2020.</strong></h2>
+        <Document file={resume} className="resume_holder">
           <Page height={resumeHeight} pageNumber={1} onLoadSuccess={removeTextLayerOffset} renderAnnotationLayer />
         </Document>
       </div> 
