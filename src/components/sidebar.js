@@ -36,10 +36,10 @@ class Sidebar extends React.Component{
         </Router>
         <div className= "logo-holder">
           <div className = "logo-background">
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/ahkaneti"><RiGithubLine size={35} color={"yellow"}/></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/ahkaneti"><RiGithubLine size={35} color={"white"}/></a>
           </div>
           <div className="logo-background" style={{marginLeft: "25%"}}>
-            <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/aaronkaneti"><FaLinkedinIn size={30} color={"yellow"} style={{paddingTop:"4", paddingLeft: "2",}}/></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/aaronkaneti"><FaLinkedinIn size={30} color={"white"} style={{paddingTop:"4", paddingLeft: "2",}}/></a>
           </div>
         </div>
       </div>
