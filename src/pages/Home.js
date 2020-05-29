@@ -22,7 +22,7 @@ function Home() {
     };
   }, [scrolled]);
   return (
-    <div className="App" activeKey='/home'>
+    <div className="App">
       <Sidebar />
       <div className="midpart">
         <div className="pro_pic_holder">
@@ -42,13 +42,6 @@ function Home() {
           </div> : <div></div>
           }
         </div>
-        <div className="expertise">
-          <ul>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>HTML</li>
-          </ul>
-          </div>
       </div>
       <Logos />
     </div>
