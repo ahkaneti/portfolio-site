@@ -30,7 +30,7 @@ class Sidebar extends React.Component{
           <Nav.Link href="/aboutme" className={"navitem"}>About Me</Nav.Link>
           <Nav.Link href="/resume" className={"navitem"}>Resumé</Nav.Link>
           <Nav.Link href="/educationexperience" className={"navitem"}>Education & Experience</Nav.Link>
-          <Nav.Link href="/" className={"navitem"}>Projects</Nav.Link>
+          <Nav.Link href="/projects" className={"navitem"}>Projects</Nav.Link>
           <Nav.Link href="/" className={"navitem"}>Contact Me</Nav.Link>
         </Nav>
         </Router>

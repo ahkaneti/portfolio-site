@@ -1,0 +1,75 @@
+{
+  "projects":[
+    {
+      "name":"LetMeAsk",
+      "github_link" :"http",
+      "used_technologies" : "React Native",
+      "description": "",
+      "contributors": "Brian Sui, Zhuping Yu, Patrice Powers, Jordan Zax, Andrew Courtner, Zev Stravitz"
+    },
+    {
+      "name": "TaskFull",
+      "github_link": "http",
+      "used_technologies": "React",
+      "description": "",
+      "contributors": "Brian Sui, Zhuping Yu, Patrice Powers, Jordan Zax, Andrew Courtner, Zev Stravitz"
+    },
+    {
+      "name": "AllRecipes-NLP",
+      "github_link": "https://github.com/wdnnll21/allrecipes-nlp",
+      "used_technologies": "Python",
+      "description": "",
+      "contributors": "Adnan Can Turkay"
+    },
+    {
+      "name": "Retrieving Awards",
+      "github_link": "https://github.com/canturkay/NLP-Projects/tree/master/Project1",
+      "used_technologies": "Python",
+      "description": "",
+      "contributors": "Adnan Can Turkay"
+    },
+    {
+      "name": "MeetMeNative",
+      "github_link": "https://github.com/397-F19/MeetMeNative/commits/master",
+      "used_technologies": "React Native",
+      "description": "",
+      "contributors": "Bradley Ramos, Danyil Pysmak, Terry Tan"
+    },
+    {
+      "name": "Localert",
+      "github_link": "https: //github.com/ahkaneti/ITChackathon",
+      "used_technologies": "React", 
+      "description":"",
+      "contributors": "Elroi Luria, Igor Sved, Julia Hania, Rotem Sapir"
+    },
+    {
+      "name": "Tagalong",
+      "github_link": "https://github.com/ahkaneti/AppDev",
+      "presentation_link": "https://docs.google.com/presentation/d/1D-HSyiHXLehmH0bztF0n6qnSt9edA44f1-h6EQNfWGU/edit?usp=sharing",
+      "used_technologies": "React",
+      "description": "",
+      "contributors": "Kieran Bondy, Adnan Can Turkay, Bradley Ramos, Ka Wong"
+    },
+    {
+      "name": "NUPay",
+      "github_link": "https://github.com/ahkaneti/nupay",
+      "used_technologies": "HTML5, CSS3, JavaScript",
+      "description": "",
+      "contributors": "Deokcelmo Filho, Danyil Pysmak"
+    },
+    {
+      "name": "hymn",
+      "github_link": "https://github.com/ahkaneti/hymn",
+      "used_technologies": "HTML5, CSS3, JavaScript",
+      "description": "hymnco.com/newLook",
+      "contributors": "Cem Unuvar, Adnan Can Turkay, Alp Kismir"
+    },
+    {
+      "name": "Hearo",
+      "github_link": "https://github.com/ralfisalhon/Hearo-noSensitive",
+      "used_technologies": "React Native, Voximplant API, Google Speech-to-Text API, Twilio API",
+      "description": "hymnco.com/newLook",
+      "contributors": "Rifat Ralfi Salhon, Eytan Nahmiyas"
+    }
+  ]
+}

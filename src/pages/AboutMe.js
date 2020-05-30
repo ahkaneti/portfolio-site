@@ -5,13 +5,17 @@ import '../styles/App.css';
 import '../styles/AboutMe.css';
 
 
+import Typist from 'react-typist';
+import 'react-typist/dist/Typist.css';
+
+
 function AboutMe(){
   return(
     <div className='App'>
       <Sidebar/>
       <div className="midpart">
-        <h1>About <strong>Me</strong></h1>
-        <h3>Bachelor of Science in Psychology & Computer Science • Front-End Engineer • Data Analyst</h3>
+        <h1><Typist><Typist.Delay ms={1000}/>About <strong>Me</strong></Typist></h1>
+        <h3>Bachelor of Science in Psychology & Computer Science <br/> Front-End Engineer • Data Analyst</h3>
         <p><strong>I am a software engineer that strives to create code that is as ergonomically induced as possible.
           My aim, when coding, is to create code that anyone can use.</strong></p>
         <h1><strong>Technical Expertise</strong></h1>

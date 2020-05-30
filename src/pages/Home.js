@@ -6,7 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Logos from '../components/Logos';
 
 
+
 import Typist from 'react-typist';
+import 'react-typist/dist/Typist.css';
 //https://www.npmjs.com/package/react-typist ^^^^ 
 
 
@@ -31,7 +33,7 @@ function Home() {
           <div className="welcome_text">
             <p styles={{ fontFamily: "Montserrat" }}>
               Hi, I'm Aaron! I'm a 
-              <Typist>
+              <Typist cursor={{blink: true,}}>
                 <span>developer</span>
                 <Typist.Backspace count={9} delay={1200} />
                 <span>student</span>
