@@ -19,11 +19,13 @@ function App() {
   return (
     <Router>
       <Switch>
+        <React.Fragment>
         <Route exact path="/" component={Home}/>
         <Route exact path="/resume" component={Resume}/>
         <Route exact path="/aboutme" component={AboutMe}/>
         <Route exact path="/educationexperience" component={Education} />
         <Route exact path="/projects" component={Projects}/>
+        </React.Fragment>
       </Switch>
     </Router>
   );

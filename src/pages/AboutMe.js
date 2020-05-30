@@ -16,9 +16,9 @@ function AboutMe(){
       <div className="midpart">
         <h1><Typist><Typist.Delay ms={1000}/>About <strong>Me</strong></Typist></h1>
         <h3>Bachelor of Science in Psychology & Computer Science <br/> Front-End Engineer • Data Analyst</h3>
-        <p><strong>I am a software engineer that strives to create code that is as ergonomically induced as possible.
+        <p style={{marginLeft: "10%", marginRight: "10%"}}><strong>I am a software engineer that strives to create code that is as ergonomically induced as possible.
           My aim, when coding, is to create code that anyone can use.</strong></p>
-        <h1><strong>Technical Expertise</strong></h1>
+        <h1><Typist><Typist.Delay ms={2000} /><strong>Technical Expertise</strong></Typist></h1>
         <div className="expertise-row">
           <div className="all-parts">
             <p className='subject'><strong>HTML 5</strong></p>

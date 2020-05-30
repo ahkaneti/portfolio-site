@@ -1,36 +1,40 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Nav from 'react-bootstrap/Nav';
 import '../styles/sidebar.css';
 import { RiGithubLine } from 'react-icons/ri';
 import { FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF } from 'react-icons/fa';
 import { BrowserRouter as Router} from 'react-router-dom';
 
-function underline(e){
-  // console.log(e);
-  // e.target.style.textDecoration = "underline";
-  return;
-}
 
-class Sidebar extends React.Component{
-  constructor(props){
-    super(props);
-    this.state={
-
-    }
-  }
-  render(){
+export default function Sidebar(){
+    const [url, setUrl] = useState('/');
+    console.log(url);
     return(
       <div className={'sidebar'}>
         <Router>
-        <Nav defaultActiveKey="/home" className="flex-column">
+        <Nav className="flex-column">
           <Nav.Link
            href="/" 
-           className={"navitem"}
-            style={{ textDecoration: "null",}}>Home</Nav.Link>
-          <Nav.Link href="/aboutme" className={"navitem"}>About Me</Nav.Link>
-          <Nav.Link href="/resume" className={"navitem"}>Resumé</Nav.Link>
-          <Nav.Link href="/educationexperience" className={"navitem"}>Education & Experience</Nav.Link>
-          <Nav.Link href="/projects" className={"navitem"}>Projects</Nav.Link>
+           className={url === "/" ? "navitem navitem-selected" : "navitem"}
+           style={{ textDecoration: "null",}}
+           onClick={() => setUrl('/')}>Home</Nav.Link>
+          <Nav.Link 
+           href="/aboutme" 
+           className={url === "/aboutme" ? "navitem navitem-selected" : "navitem"}
+           onClick={() => setUrl('/aboutme')}>About Me</Nav.Link>
+          <Nav.Link 
+           href="/resume" 
+           className={url === "/resume" ? "navitem navitem-selected" : "navitem"}
+           onClick={() => setUrl('/resume')}>Resumé</Nav.Link>
+          <Nav.Link 
+           href="/educationexperience" 
+           className={url === "/educationexperience" ? "navitem navitem-selected" : "navitem"}
+           onClick={() => setUrl('/educationexperience')}>Education & Experience</Nav.Link>
+          <Nav.Link 
+           href="/projects" 
+           className={url === "/projects" ? "navitem navitem-selected" : "navitem"}
+           onClick={() => setUrl('/projects')}>Projects</Nav.Link>
           <Nav.Link href="/" className={"navitem"}>Contact Me</Nav.Link>
         </Nav>
         </Router>
@@ -38,12 +42,13 @@ class Sidebar extends React.Component{
           <div className = "logo-background">
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/ahkaneti"><RiGithubLine size={35} color={"white"}/></a>
           </div>
-          <div className="logo-background" style={{marginLeft: "25%"}}>
+          <div className="logo-background" style={{marginLeft: "12.5%"}}>
             <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/aaronkaneti"><FaLinkedinIn size={30} color={"white"} style={{paddingTop:"4", paddingLeft: "2",}}/></a>
+          </div>
+          <div className="logo-background" style={{ marginLeft: "12.5%" }}>
+            <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/aaronkaneti"><FaFacebookF size={30} color={"white"} style={{ paddingTop: "4", paddingLeft: "2", }} /></a>
           </div>
         </div>
       </div>
     )
-  }
 }
-export default Sidebar;
