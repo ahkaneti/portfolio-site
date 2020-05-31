@@ -25,7 +25,7 @@ function Home() {
   }, [scrolled]);
   return (
     <div className="App">
-      <Sidebar />
+      {/* <Sidebar /> */}
       <div className="midpart">
         <div className="pro_pic_holder">
           <img className={scrolled ? "blurred_pro_pic" : "pro_pic"} src={pic} alt='professional_pic' />

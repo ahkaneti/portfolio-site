@@ -9,7 +9,6 @@ import { BrowserRouter as Router} from 'react-router-dom';
 
 export default function Sidebar(){
     const [url, setUrl] = useState('/');
-    console.log(url);
     return(
       <div className={'sidebar'}>
         <Router>
@@ -46,7 +45,7 @@ export default function Sidebar(){
             <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/aaronkaneti"><FaLinkedinIn size={30} color={"white"} style={{paddingTop:"4", paddingLeft: "2",}}/></a>
           </div>
           <div className="logo-background" style={{ marginLeft: "12.5%" }}>
-            <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/aaronkaneti"><FaFacebookF size={30} color={"white"} style={{ paddingTop: "4", paddingLeft: "2", }} /></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/harunkaneti/"><FaFacebookF size={30} color={"white"} style={{ paddingTop: "4", paddingLeft: "2", }} /></a>
           </div>
         </div>
       </div>
